@@ -1,0 +1,8 @@
+name: domain_bridge
+from_domain: 0
+to_domain: 2
+topics:
+  obstacles:
+    type: sensor_manager_msgs/Obstaclelist
+  detection/result:
+    type: user_interfaces/msg/DetectionResult
